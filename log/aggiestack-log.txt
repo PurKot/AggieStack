@@ -1,0 +1,619 @@
+2018-11-26 15:41:24,050 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-26 15:41:24,138 - root - INFO - Inserted Rack: '['r1', '40960\n']'
+2018-11-26 15:41:24,139 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-26 15:41:24,151 - root - INFO - Inserted Rack: '['r2', '40960\n']'
+2018-11-26 15:41:24,151 - root - INFO - Hardware parsed -- '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-26 15:41:24,190 - root - INFO - Inserted Hardware: '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-26 15:41:24,191 - root - INFO - Hardware parsed -- '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-26 15:41:24,201 - root - INFO - Inserted Hardware: '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-26 15:41:24,202 - root - INFO - Hardware parsed -- '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-26 15:41:24,212 - root - INFO - Inserted Hardware: '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-26 15:41:24,213 - root - INFO - Hardware parsed -- '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-26 15:41:24,223 - root - INFO - Inserted Hardware: '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-26 15:41:24,223 - root - INFO - Hardware parsed -- '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-26 15:41:24,234 - root - INFO - Inserted Hardware: '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-26 15:41:24,234 - root - INFO - Hardware parsed -- '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-26 15:41:24,245 - root - INFO - Inserted Hardware: '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-26 15:41:24,246 - root - INFO - Hardware parsed -- '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-26 15:41:24,256 - root - INFO - Inserted Hardware: '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-26 15:41:24,256 - root - INFO - Hardware parsed -- '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-26 15:41:24,265 - root - INFO - Inserted Hardware: '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-26 15:41:24,266 - root - INFO - Hardware parsed -- '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-26 15:41:24,275 - root - INFO - Inserted Hardware: '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-26 15:41:24,275 - root - INFO - Hardware parsed -- '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-26 15:41:24,284 - root - INFO - Inserted Hardware: '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-26 15:41:24,284 - root - INFO - SUCCESS: COMMAND: aggiestack config --hardware 'Hardware object'
+2018-11-26 15:47:27,195 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-26 15:47:27,211 - root - INFO - Updated Rack: '['r1', '40960\n']'
+2018-11-26 15:47:27,211 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-26 15:47:27,213 - root - INFO - Updated Rack: '['r2', '40960\n']'
+2018-11-26 15:47:27,213 - root - INFO - Hardware parsed -- '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-26 15:47:27,217 - root - INFO - Updated Hardware: '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-26 15:47:27,217 - root - INFO - Hardware parsed -- '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-26 15:47:27,221 - root - INFO - Updated Hardware: '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-26 15:47:27,221 - root - INFO - Hardware parsed -- '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-26 15:47:27,224 - root - INFO - Updated Hardware: '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-26 15:47:27,224 - root - INFO - Hardware parsed -- '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-26 15:47:27,228 - root - INFO - Updated Hardware: '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-26 15:47:27,228 - root - INFO - Hardware parsed -- '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-26 15:47:27,232 - root - INFO - Updated Hardware: '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-26 15:47:27,232 - root - INFO - Hardware parsed -- '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-26 15:47:27,235 - root - INFO - Updated Hardware: '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-26 15:47:27,235 - root - INFO - Hardware parsed -- '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-26 15:47:27,238 - root - INFO - Updated Hardware: '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-26 15:47:27,238 - root - INFO - Hardware parsed -- '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-26 15:47:27,243 - root - INFO - Updated Hardware: '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-26 15:47:27,243 - root - INFO - Hardware parsed -- '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-26 15:47:27,250 - root - INFO - Updated Hardware: '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-26 15:47:27,250 - root - INFO - Hardware parsed -- '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-26 15:47:27,257 - root - INFO - Updated Hardware: '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-26 15:47:27,257 - root - INFO - SUCCESS: COMMAND: aggiestack config --hardware 'Hardware object'
+2018-11-26 15:58:34,797 - root - INFO - SUCCESS: COMMAND: aggiestack config --flavors 'C:\Users\Purnima\git\678-18-c\P1\test-files\flavor-config.txt'
+2018-11-28 14:19:40,551 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-28 14:19:40,597 - root - INFO - Updated Rack: '['r1', '40960\n']'
+2018-11-28 14:19:40,598 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-28 14:19:40,603 - root - INFO - Updated Rack: '['r2', '40960\n']'
+2018-11-28 14:19:40,604 - root - INFO - Hardware parsed -- '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-28 15:24:07,059 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-28 15:24:07,074 - root - INFO - Updated Rack: '['r1', '40960\n']'
+2018-11-28 15:24:07,074 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-28 15:24:07,076 - root - INFO - Updated Rack: '['r2', '40960\n']'
+2018-11-28 15:24:07,076 - root - INFO - Hardware parsed -- '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-28 15:24:07,084 - root - INFO - Updated Hardware: '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-28 15:24:07,084 - root - INFO - Hardware parsed -- '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-28 15:24:07,089 - root - INFO - Updated Hardware: '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-28 15:24:07,089 - root - INFO - Hardware parsed -- '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-28 15:24:07,092 - root - INFO - Updated Hardware: '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-28 15:24:07,093 - root - INFO - Hardware parsed -- '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-28 15:24:07,099 - root - INFO - Updated Hardware: '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-28 15:24:07,099 - root - INFO - Hardware parsed -- '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-28 15:24:07,107 - root - INFO - Updated Hardware: '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-28 15:24:07,107 - root - INFO - Hardware parsed -- '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-28 15:24:07,115 - root - INFO - Updated Hardware: '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-28 15:24:07,115 - root - INFO - Hardware parsed -- '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-28 15:24:07,123 - root - INFO - Updated Hardware: '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-28 15:24:07,123 - root - INFO - Hardware parsed -- '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-28 15:24:07,131 - root - INFO - Updated Hardware: '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-28 15:24:07,131 - root - INFO - Hardware parsed -- '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-28 15:24:07,140 - root - INFO - Updated Hardware: '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-28 15:24:07,140 - root - INFO - Hardware parsed -- '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-28 15:24:07,148 - root - INFO - Updated Hardware: '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-28 15:24:07,148 - root - INFO - SUCCESS: COMMAND: aggiestack config --hardware 'Hardware object'
+2018-11-28 15:33:50,703 - root - INFO - Flavor parsed -- '['small', '1', '1', '1\n']'
+2018-11-28 15:33:50,759 - root - INFO - Inserted Flavor: '['small', '1', '1', '1\n']'
+2018-11-28 15:33:50,760 - root - INFO - Flavor parsed -- '['medium', '8', '2', '4\n']'
+2018-11-28 15:33:50,765 - root - INFO - Inserted Flavor: '['medium', '8', '2', '4\n']'
+2018-11-28 15:33:50,765 - root - INFO - Flavor parsed -- '['large', '16', '2', '4\n']'
+2018-11-28 15:33:50,771 - root - INFO - Inserted Flavor: '['large', '16', '2', '4\n']'
+2018-11-28 15:33:50,771 - root - INFO - Flavor parsed -- '['xlarge', '32', '4', '8\n']'
+2018-11-28 15:33:50,776 - root - INFO - Inserted Flavor: '['xlarge', '32', '4', '8\n']'
+2018-11-28 15:33:50,776 - root - INFO - SUCCESS: COMMAND: aggiestack config --flavors 'C:/Users/Purnima/git/678-18-c/P1/test-files/flavor-config.txt'
+2018-11-28 15:34:09,281 - root - ERROR - COMMAND: aggiestack config --images 'C:/Users/Purnima/git/678-18-c/P1/test-files/image-config.txt' : Invalid/Missing attributes for a image : INVALID file format
+2018-11-28 15:35:38,942 - root - ERROR - COMMAND: aggiestack config --images 'C:/Users/Purnima/git/678-18-c/P1/test-files/image-config.txt' : Invalid/Missing attributes for a image : INVALID file format
+2018-11-28 15:35:52,782 - root - ERROR - COMMAND: aggiestack config --images 'C:/Users/Purnima/git/678-18-c/P1/test-files/image-config.txt' : Invalid/Missing attributes for a image : INVALID file format
+2018-11-28 15:43:11,482 - root - INFO - Images parsed -- '['linux-ubuntu', '128', '/images/linux-ubuntu-v1.0.img\n']'
+2018-11-28 15:43:11,511 - root - INFO - Inserted Image: '['linux-ubuntu', '128', '/images/linux-ubuntu-v1.0.img\n']'
+2018-11-28 15:43:11,511 - root - INFO - Images parsed -- '['linux-sles', '512', '/images/old-image.img\n']'
+2018-11-28 15:43:11,516 - root - INFO - Inserted Image: '['linux-sles', '512', '/images/old-image.img\n']'
+2018-11-28 15:43:11,517 - root - INFO - Images parsed -- '['linux-ubuntu-16', '2048', '/images/linux-ubuntu-16.img\n']'
+2018-11-28 15:43:11,522 - root - INFO - Inserted Image: '['linux-ubuntu-16', '2048', '/images/linux-ubuntu-16.img\n']'
+2018-11-28 15:43:11,522 - root - INFO - SUCCESS:  COMMAND: aggiestack config --images 'C:/Users/Purnima/git/678-18-c/P1/test-files/image-config.txt'
+2018-11-28 15:58:14,101 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-28 15:58:14,115 - root - INFO - Updated Rack: '['r1', '40960\n']'
+2018-11-28 15:58:14,115 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-28 15:58:14,117 - root - INFO - Updated Rack: '['r2', '40960\n']'
+2018-11-28 15:58:14,117 - root - INFO - Hardware parsed -- '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-28 15:58:14,122 - root - INFO - Updated Hardware: '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-28 15:58:14,122 - root - INFO - Hardware parsed -- '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-28 15:58:14,126 - root - INFO - Updated Hardware: '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-28 15:58:14,126 - root - INFO - Hardware parsed -- '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-28 15:58:14,130 - root - INFO - Updated Hardware: '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-28 15:58:14,130 - root - INFO - Hardware parsed -- '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-28 15:58:14,134 - root - INFO - Updated Hardware: '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-28 15:58:14,134 - root - INFO - Hardware parsed -- '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-28 15:58:14,138 - root - INFO - Updated Hardware: '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-28 15:58:14,138 - root - INFO - Hardware parsed -- '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-28 15:58:14,142 - root - INFO - Updated Hardware: '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-28 15:58:14,142 - root - INFO - Hardware parsed -- '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-28 15:58:14,145 - root - INFO - Updated Hardware: '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-28 15:58:14,146 - root - INFO - Hardware parsed -- '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-28 15:58:14,149 - root - INFO - Updated Hardware: '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-28 15:58:14,150 - root - INFO - Hardware parsed -- '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-28 15:58:14,153 - root - INFO - Updated Hardware: '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-28 15:58:14,153 - root - INFO - Hardware parsed -- '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-28 15:58:14,157 - root - INFO - Updated Hardware: '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-28 15:58:14,157 - root - INFO - SUCCESS: COMMAND: aggiestack config --hardware 'Hardware object'
+2018-11-28 15:58:30,401 - root - ERROR - COMMAND: aggiestack config --hardware 'C:/Users/Purnima/git/678-18-c/P1/test-files/hdwr-config.txt' : Invalid memory size: INVALID config file
+2018-11-28 15:59:00,067 - root - ERROR - COMMAND: aggiestack config --hardware 'C:/Users/Purnima/git/678-18-c/P1/test-files/hdwr-config.txt' : Invalid rack memory size: INVALID config file
+2018-11-28 15:59:21,092 - root - ERROR - COMMAND: aggiestack config --hardware 'C:/Users/Purnima/git/678-18-c/P1/test-files/hdwr-config.txt' : Excess machine configurations given: Invalid file format
+2018-11-29 15:02:51,990 - root - ERROR - COMMAND: aggiestack config --hardware 'C:/Users/Purnima/git/678-18-c/P1/test-files/hdwr-config.txt' : Excess machine configurations given: Invalid file format
+2018-11-29 15:03:25,869 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-29 15:03:25,874 - root - INFO - Updated Rack: '['r1', '40960\n']'
+2018-11-29 15:03:25,874 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-29 15:03:25,876 - root - INFO - Updated Rack: '['r2', '40960\n']'
+2018-11-29 15:03:25,876 - root - INFO - Hardware parsed -- '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-29 15:03:25,881 - root - INFO - Inserted Hardware: '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-29 15:03:25,882 - root - INFO - Hardware parsed -- '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-29 15:03:25,885 - root - INFO - Inserted Hardware: '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-29 15:03:25,885 - root - INFO - Hardware parsed -- '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-29 15:03:25,889 - root - INFO - Inserted Hardware: '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-29 15:03:25,889 - root - INFO - Hardware parsed -- '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-29 15:03:25,893 - root - INFO - Inserted Hardware: '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-29 15:03:25,893 - root - INFO - Hardware parsed -- '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-29 15:03:25,897 - root - INFO - Inserted Hardware: '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-29 15:03:25,897 - root - INFO - Hardware parsed -- '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-29 15:03:25,900 - root - INFO - Inserted Hardware: '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-29 15:03:25,900 - root - INFO - Hardware parsed -- '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-29 15:03:25,904 - root - INFO - Inserted Hardware: '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-29 15:03:25,904 - root - INFO - Hardware parsed -- '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-29 15:03:25,907 - root - INFO - Inserted Hardware: '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-29 15:03:25,907 - root - INFO - Hardware parsed -- '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-29 15:03:25,911 - root - INFO - Inserted Hardware: '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-29 15:03:25,911 - root - INFO - Hardware parsed -- '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-29 15:03:25,914 - root - INFO - Inserted Hardware: '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-29 15:03:25,915 - root - INFO - SUCCESS: COMMAND: aggiestack config --hardware 'Hardware object'
+2018-11-29 15:22:14,066 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-29 15:22:14,084 - root - INFO - Inserted Rack: '['r1', '40960\n']'
+2018-11-29 15:22:14,084 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-29 15:22:14,086 - root - INFO - Inserted Rack: '['r2', '40960\n']'
+2018-11-29 15:22:14,086 - root - INFO - Hardware parsed -- '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-29 15:26:02,564 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-29 15:26:02,578 - root - INFO - Updated Rack: '['r1', '40960\n']'
+2018-11-29 15:26:02,578 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-29 15:26:02,580 - root - INFO - Updated Rack: '['r2', '40960\n']'
+2018-11-29 15:26:02,580 - root - INFO - Hardware parsed -- '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-29 15:26:02,584 - root - INFO - Inserted Hardware: '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-29 15:26:02,584 - root - INFO - Hardware parsed -- '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-29 15:26:02,588 - root - INFO - Inserted Hardware: '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-29 15:26:02,588 - root - INFO - Hardware parsed -- '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-29 15:26:02,591 - root - INFO - Inserted Hardware: '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-29 15:26:02,591 - root - INFO - Hardware parsed -- '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-29 15:26:02,595 - root - INFO - Inserted Hardware: '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-29 15:26:02,595 - root - INFO - Hardware parsed -- '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-29 15:26:02,598 - root - INFO - Inserted Hardware: '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-29 15:26:02,598 - root - INFO - Hardware parsed -- '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-29 15:26:02,603 - root - INFO - Inserted Hardware: '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-29 15:26:02,604 - root - INFO - Hardware parsed -- '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-29 15:26:02,613 - root - INFO - Inserted Hardware: '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-29 15:26:02,613 - root - INFO - Hardware parsed -- '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-29 15:26:02,622 - root - INFO - Inserted Hardware: '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-29 15:26:02,622 - root - INFO - Hardware parsed -- '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-29 15:26:02,631 - root - INFO - Inserted Hardware: '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-29 15:26:02,632 - root - INFO - Hardware parsed -- '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-29 15:26:02,640 - root - INFO - Inserted Hardware: '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-29 15:26:02,641 - root - INFO - SUCCESS: COMMAND: aggiestack config --hardware 'Hardware object'
+2018-11-29 15:30:28,708 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-29 15:30:28,727 - root - INFO - Inserted Rack: '['r1', '40960\n']'
+2018-11-29 15:30:28,727 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-29 15:30:28,732 - root - INFO - Inserted Rack: '['r2', '40960\n']'
+2018-11-29 15:30:28,732 - root - INFO - Hardware parsed -- '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-29 15:30:28,782 - root - INFO - Inserted Hardware: '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-29 15:30:28,782 - root - INFO - Hardware parsed -- '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-29 15:30:28,795 - root - INFO - Inserted Hardware: '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-29 15:30:28,796 - root - INFO - Hardware parsed -- '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-29 15:30:28,810 - root - INFO - Inserted Hardware: '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-29 15:30:28,810 - root - INFO - Hardware parsed -- '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-29 15:30:28,824 - root - INFO - Inserted Hardware: '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-29 15:30:28,825 - root - INFO - Hardware parsed -- '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-29 15:30:28,842 - root - INFO - Inserted Hardware: '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-29 15:30:28,842 - root - INFO - Hardware parsed -- '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-29 15:30:28,847 - root - INFO - Inserted Hardware: '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-29 15:30:28,847 - root - INFO - Hardware parsed -- '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-29 15:30:28,851 - root - INFO - Inserted Hardware: '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-29 15:30:28,851 - root - INFO - Hardware parsed -- '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-29 15:30:28,855 - root - INFO - Inserted Hardware: '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-29 15:30:28,856 - root - INFO - Hardware parsed -- '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-29 15:30:28,860 - root - INFO - Inserted Hardware: '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-29 15:30:28,860 - root - INFO - Hardware parsed -- '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-29 15:30:28,864 - root - INFO - Inserted Hardware: '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-29 15:30:28,864 - root - INFO - SUCCESS: COMMAND: aggiestack config --hardware 'Hardware object'
+2018-11-30 11:53:10,729 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-30 11:53:10,744 - root - INFO - Inserted Rack: '['r1', '40960\n']'
+2018-11-30 11:53:10,744 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-30 11:53:10,746 - root - INFO - Inserted Rack: '['r2', '40960\n']'
+2018-11-30 11:53:10,746 - root - INFO - Hardware parsed -- '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-30 11:53:10,764 - root - INFO - Inserted Hardware: '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-30 11:53:10,764 - root - INFO - Hardware parsed -- '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-30 11:53:10,777 - root - INFO - Inserted Hardware: '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-30 11:53:10,777 - root - INFO - Hardware parsed -- '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-30 11:53:10,789 - root - INFO - Inserted Hardware: '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-30 11:53:10,790 - root - INFO - Hardware parsed -- '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-30 11:53:10,802 - root - INFO - Inserted Hardware: '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-30 11:53:10,802 - root - INFO - Hardware parsed -- '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-30 11:53:10,815 - root - INFO - Inserted Hardware: '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-30 11:53:10,815 - root - INFO - Hardware parsed -- '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-30 11:53:10,828 - root - INFO - Inserted Hardware: '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-30 11:53:10,828 - root - INFO - Hardware parsed -- '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-30 11:53:10,842 - root - INFO - Inserted Hardware: '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-30 11:53:10,842 - root - INFO - Hardware parsed -- '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-30 11:53:10,854 - root - INFO - Inserted Hardware: '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-30 11:53:10,854 - root - INFO - Hardware parsed -- '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-30 11:53:10,866 - root - INFO - Inserted Hardware: '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-30 11:53:10,867 - root - INFO - Hardware parsed -- '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-30 11:53:10,879 - root - INFO - Inserted Hardware: '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-30 11:53:10,879 - root - INFO - SUCCESS: COMMAND: aggiestack config --hardware 'Hardware object'
+2018-11-30 13:13:18,909 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-30 13:13:18,923 - root - INFO - Inserted Rack: '['r1', '40960\n']'
+2018-11-30 13:13:18,923 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-30 13:13:18,925 - root - INFO - Inserted Rack: '['r2', '40960\n']'
+2018-11-30 13:13:18,926 - root - INFO - Hardware parsed -- '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-30 13:13:18,932 - root - INFO - Inserted Hardware: '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-30 13:13:18,932 - root - INFO - Hardware parsed -- '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-30 13:13:18,937 - root - INFO - Inserted Hardware: '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-30 13:13:18,937 - root - INFO - Hardware parsed -- '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-30 13:13:18,941 - root - INFO - Inserted Hardware: '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-30 13:13:18,941 - root - INFO - Hardware parsed -- '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-30 13:13:18,945 - root - INFO - Inserted Hardware: '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-30 13:13:18,945 - root - INFO - Hardware parsed -- '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-30 13:13:18,949 - root - INFO - Inserted Hardware: '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-30 13:13:18,949 - root - INFO - Hardware parsed -- '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-30 13:13:18,954 - root - INFO - Inserted Hardware: '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-30 13:13:18,954 - root - INFO - Hardware parsed -- '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-30 13:13:18,958 - root - INFO - Inserted Hardware: '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-30 13:13:18,958 - root - INFO - Hardware parsed -- '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-30 13:13:18,962 - root - INFO - Inserted Hardware: '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-30 13:13:18,962 - root - INFO - Hardware parsed -- '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-30 13:13:18,966 - root - INFO - Inserted Hardware: '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-30 13:13:18,966 - root - INFO - Hardware parsed -- '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-30 13:13:18,970 - root - INFO - Inserted Hardware: '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-30 13:13:18,970 - root - INFO - SUCCESS: COMMAND: aggiestack config --hardware 'Hardware object'
+2018-11-30 13:20:19,103 - root - INFO - Enter the ADMIN!
+2018-11-30 13:22:15,380 - root - INFO - Enter the ADMIN!
+2018-11-30 13:22:47,146 - root - INFO - Enter the ADMIN!
+2018-11-30 13:32:52,575 - root - INFO - Enter the ADMIN!
+2018-11-30 13:33:17,010 - root - INFO - Enter the ADMIN!
+2018-11-30 13:33:27,131 - root - INFO - Enter the ADMIN!
+2018-11-30 13:39:51,337 - root - INFO - Enter the ADMIN!
+2018-11-30 13:40:13,571 - root - INFO - Enter the ADMIN!
+2018-11-30 13:43:08,386 - root - INFO - Enter the ADMIN!
+2018-11-30 13:43:12,671 - root - INFO - Enter the ADMIN!
+2018-11-30 13:59:37,051 - root - INFO - Enter the ADMIN!
+2018-11-30 14:00:08,332 - root - INFO - Enter the ADMIN!
+2018-11-30 14:00:21,535 - root - INFO - Enter the ADMIN!
+2018-11-30 14:01:24,808 - root - INFO - Enter the ADMIN!
+2018-11-30 14:02:29,297 - root - INFO - Enter the ADMIN!
+2018-11-30 14:16:31,616 - root - INFO - SUCCESS: COMMAND : aggiestack admin can_host int1 small
+2018-11-30 14:16:42,962 - root - INFO - SUCCESS: COMMAND : aggiestack admin can_host int1 xlarge
+2018-11-30 14:20:47,043 - root - INFO - Flavor parsed -- '['small', '1', '1', '1\n']'
+2018-11-30 14:20:47,061 - root - INFO - Updated Flavor: '['small', '1', '1', '1\n']'
+2018-11-30 14:20:47,061 - root - INFO - Flavor parsed -- '['medium', '8', '2', '4\n']'
+2018-11-30 14:20:47,063 - root - INFO - Updated Flavor: '['medium', '8', '2', '4\n']'
+2018-11-30 14:20:47,063 - root - INFO - Flavor parsed -- '['large', '16', '2', '4\n']'
+2018-11-30 14:20:47,065 - root - INFO - Updated Flavor: '['large', '16', '2', '4\n']'
+2018-11-30 14:20:47,065 - root - INFO - Flavor parsed -- '['xlarge', '32', '4', '8\n']'
+2018-11-30 14:20:47,067 - root - INFO - Updated Flavor: '['xlarge', '32', '4', '8\n']'
+2018-11-30 14:20:47,067 - root - INFO - Flavor parsed -- '['jumbo', '1200', '24', '1005']'
+2018-11-30 14:20:47,069 - root - INFO - Inserted Flavor: '['jumbo', '1200', '24', '1005']'
+2018-11-30 14:20:47,069 - root - INFO - SUCCESS: COMMAND: aggiestack config --flavors 'C:\Users\Purnima\git\678-18-c\P1\test-files\flavor-config.txt'
+2018-11-30 14:31:00,976 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-30 14:31:00,980 - root - INFO - Inserted Rack: '['r1', '40960\n']'
+2018-11-30 14:31:00,980 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-30 14:31:00,982 - root - INFO - Inserted Rack: '['r2', '40960\n']'
+2018-11-30 14:31:00,982 - root - INFO - Hardware parsed -- '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-30 14:31:00,987 - root - INFO - Inserted Hardware: '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-30 14:31:00,987 - root - INFO - Hardware parsed -- '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-30 14:31:00,991 - root - INFO - Inserted Hardware: '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-30 14:31:00,991 - root - INFO - Hardware parsed -- '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-30 14:31:00,995 - root - INFO - Inserted Hardware: '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-30 14:31:00,995 - root - INFO - Hardware parsed -- '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-30 14:31:00,999 - root - INFO - Inserted Hardware: '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-30 14:31:00,999 - root - INFO - Hardware parsed -- '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-30 14:31:01,003 - root - INFO - Inserted Hardware: '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-30 14:31:01,003 - root - INFO - Hardware parsed -- '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-30 14:31:01,007 - root - INFO - Inserted Hardware: '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-30 14:31:01,007 - root - INFO - Hardware parsed -- '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-30 14:31:01,011 - root - INFO - Inserted Hardware: '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-30 14:31:01,011 - root - INFO - Hardware parsed -- '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-30 14:31:01,015 - root - INFO - Inserted Hardware: '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-30 14:31:01,015 - root - INFO - Hardware parsed -- '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-30 14:31:01,018 - root - INFO - Inserted Hardware: '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-30 14:31:01,018 - root - INFO - Hardware parsed -- '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-30 14:31:01,022 - root - INFO - Inserted Hardware: '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-30 14:31:01,022 - root - INFO - SUCCESS: COMMAND: aggiestack config --hardware 'Hardware object'
+2018-11-30 14:45:10,500 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-30 14:45:10,518 - root - INFO - Inserted Rack: '['r1', '40960\n']'
+2018-11-30 14:45:10,519 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-30 14:45:10,522 - root - INFO - Inserted Rack: '['r2', '40960\n']'
+2018-11-30 14:45:10,523 - root - INFO - Hardware parsed -- '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-30 14:45:10,531 - root - INFO - Inserted Hardware: '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-30 14:45:10,531 - root - INFO - Hardware parsed -- '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-30 14:45:10,539 - root - INFO - Inserted Hardware: '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-30 14:45:10,539 - root - INFO - Hardware parsed -- '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-30 14:45:10,552 - root - INFO - Inserted Hardware: '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-30 14:45:10,552 - root - INFO - Hardware parsed -- '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-30 14:45:10,564 - root - INFO - Inserted Hardware: '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-30 14:45:10,564 - root - INFO - Hardware parsed -- '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-30 14:45:10,576 - root - INFO - Inserted Hardware: '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-30 14:45:10,576 - root - INFO - Hardware parsed -- '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-30 14:45:10,588 - root - INFO - Inserted Hardware: '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-30 14:45:10,588 - root - INFO - Hardware parsed -- '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-30 14:45:10,599 - root - INFO - Inserted Hardware: '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-30 14:45:10,599 - root - INFO - Hardware parsed -- '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-30 14:45:10,611 - root - INFO - Inserted Hardware: '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-30 14:45:10,611 - root - INFO - Hardware parsed -- '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-30 14:45:10,623 - root - INFO - Inserted Hardware: '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-30 14:45:10,623 - root - INFO - Hardware parsed -- '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-30 14:45:10,635 - root - INFO - Inserted Hardware: '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-30 14:45:10,635 - root - INFO - SUCCESS: COMMAND: aggiestack config --hardware 'Hardware object'
+2018-11-30 14:47:52,401 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-30 14:47:52,414 - root - INFO - Inserted Rack: '['r1', '40960\n']'
+2018-11-30 14:47:52,415 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-30 14:47:52,416 - root - INFO - Inserted Rack: '['r2', '40960\n']'
+2018-11-30 14:47:52,416 - root - INFO - Hardware parsed -- '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-30 14:47:52,421 - root - INFO - Inserted Hardware: '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-30 14:47:52,421 - root - INFO - Hardware parsed -- '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-30 14:47:52,424 - root - INFO - Inserted Hardware: '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-30 14:47:52,424 - root - INFO - Hardware parsed -- '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-30 14:47:52,428 - root - INFO - Inserted Hardware: '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-30 14:47:52,428 - root - INFO - Hardware parsed -- '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-30 14:47:52,433 - root - INFO - Inserted Hardware: '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-30 14:47:52,433 - root - INFO - Hardware parsed -- '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-30 14:47:52,436 - root - INFO - Inserted Hardware: '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-30 14:47:52,436 - root - INFO - Hardware parsed -- '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-30 14:47:52,440 - root - INFO - Inserted Hardware: '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-30 14:47:52,440 - root - INFO - Hardware parsed -- '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-30 14:47:52,443 - root - INFO - Inserted Hardware: '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-30 14:47:52,443 - root - INFO - Hardware parsed -- '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-30 14:47:52,448 - root - INFO - Inserted Hardware: '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-30 14:47:52,448 - root - INFO - Hardware parsed -- '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-30 14:47:52,452 - root - INFO - Inserted Hardware: '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-30 14:47:52,452 - root - INFO - Hardware parsed -- '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-30 14:47:52,457 - root - INFO - Inserted Hardware: '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-30 14:47:52,457 - root - INFO - SUCCESS: COMMAND: aggiestack config --hardware 'Hardware object'
+2018-11-30 14:48:37,942 - root - INFO - Images parsed -- '['linux-ubuntu', '128', '/images/linux-ubuntu-v1.0.img\n']'
+2018-11-30 14:48:37,956 - root - INFO - Inserted Image: '['linux-ubuntu', '128', '/images/linux-ubuntu-v1.0.img\n']'
+2018-11-30 14:48:37,956 - root - INFO - Images parsed -- '['linux-sles', '512', '/images/old-image.img\n']'
+2018-11-30 14:48:37,958 - root - INFO - Inserted Image: '['linux-sles', '512', '/images/old-image.img\n']'
+2018-11-30 14:48:37,958 - root - INFO - Images parsed -- '['linux-ubuntu-16', '2048', '/images/linux-ubuntu-16.img\n']'
+2018-11-30 14:48:37,960 - root - INFO - Inserted Image: '['linux-ubuntu-16', '2048', '/images/linux-ubuntu-16.img\n']'
+2018-11-30 14:48:37,960 - root - INFO - SUCCESS:  COMMAND: aggiestack config --images 'C:\Users\Purnima\git\678-18-c\P1\test-files\image-config.txt'
+2018-11-30 15:51:01,933 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-30 15:51:01,974 - root - INFO - Inserted Rack: '['r1', '40960\n']'
+2018-11-30 15:51:01,974 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-30 15:51:57,723 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-30 15:51:57,737 - root - INFO - Updated Rack: '['r1', '40960\n']'
+2018-11-30 15:51:57,737 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-30 15:55:58,880 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-30 15:55:58,894 - root - INFO - Updated Rack: '['r1', '40960\n']'
+2018-11-30 15:55:58,894 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-30 15:56:44,055 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-30 15:56:44,069 - root - INFO - Updated Rack: '['r1', '40960\n']'
+2018-11-30 15:56:44,069 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-30 15:57:14,105 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-30 15:57:14,119 - root - INFO - Inserted Rack: '['r1', '40960\n']'
+2018-11-30 15:57:14,119 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-30 15:59:05,228 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-30 15:59:05,242 - root - INFO - Updated Rack: '['r1', '40960\n']'
+2018-11-30 15:59:05,242 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-30 15:59:40,598 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-30 15:59:40,612 - root - INFO - Inserted Rack: '['r1', '40960\n']'
+2018-11-30 15:59:40,612 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-30 16:00:23,056 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-30 16:00:23,060 - root - INFO - Inserted Rack: '['r1', '40960\n']'
+2018-11-30 16:00:23,060 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-30 16:03:19,105 - root - INFO - Images parsed -- '['linux-ubuntu', '128', '/images/linux-ubuntu-v1.0.img\n']'
+2018-11-30 16:03:19,118 - root - INFO - Inserted Image: '['linux-ubuntu', '128', '/images/linux-ubuntu-v1.0.img\n']'
+2018-11-30 16:03:19,118 - root - INFO - Images parsed -- '['linux-sles', '512', '/images/old-image.img\n']'
+2018-11-30 16:03:19,120 - root - INFO - Inserted Image: '['linux-sles', '512', '/images/old-image.img\n']'
+2018-11-30 16:03:19,120 - root - INFO - Images parsed -- '['linux-ubuntu-16', '2048', '/images/linux-ubuntu-16.img\n']'
+2018-11-30 16:03:19,122 - root - INFO - Inserted Image: '['linux-ubuntu-16', '2048', '/images/linux-ubuntu-16.img\n']'
+2018-11-30 16:03:19,122 - root - INFO - SUCCESS:  COMMAND: aggiestack config --images 'C:\Users\Purnima\git\678-18-c\P1\test-files\image-config.txt'
+2018-11-30 16:03:37,520 - root - INFO - Flavor parsed -- '['small', '1', '1', '1\n']'
+2018-11-30 16:03:37,535 - root - INFO - Inserted Flavor: '['small', '1', '1', '1\n']'
+2018-11-30 16:03:37,535 - root - INFO - Flavor parsed -- '['medium', '8', '2', '4\n']'
+2018-11-30 16:03:37,536 - root - INFO - Inserted Flavor: '['medium', '8', '2', '4\n']'
+2018-11-30 16:03:37,536 - root - INFO - Flavor parsed -- '['large', '16', '2', '4\n']'
+2018-11-30 16:03:37,538 - root - INFO - Inserted Flavor: '['large', '16', '2', '4\n']'
+2018-11-30 16:03:37,538 - root - INFO - Flavor parsed -- '['xlarge', '32', '4', '8\n']'
+2018-11-30 16:03:37,539 - root - INFO - Inserted Flavor: '['xlarge', '32', '4', '8\n']'
+2018-11-30 16:03:37,540 - root - INFO - Flavor parsed -- '['jumbo', '1200', '24', '1005']'
+2018-11-30 16:03:37,541 - root - INFO - Inserted Flavor: '['jumbo', '1200', '24', '1005']'
+2018-11-30 16:03:37,541 - root - INFO - SUCCESS: COMMAND: aggiestack config --flavors 'C:\Users\Purnima\git\678-18-c\P1\test-files\flavor-config.txt'
+2018-11-30 16:04:02,293 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-30 16:04:02,307 - root - INFO - Updated Rack: '['r1', '40960\n']'
+2018-11-30 16:04:02,307 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-30 16:09:08,554 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-30 16:09:08,568 - root - INFO - Updated Rack: '['r1', '40960\n']'
+2018-11-30 16:09:08,568 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-30 16:09:08,570 - root - INFO - Inserted Rack: '['r2', '40960\n']'
+2018-11-30 16:09:08,570 - root - INFO - Hardware parsed -- '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-30 16:09:08,574 - root - INFO - Inserted Hardware: '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-30 16:09:08,574 - root - INFO - Hardware parsed -- '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-30 16:09:08,578 - root - INFO - Inserted Hardware: '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-30 16:09:08,578 - root - INFO - Hardware parsed -- '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-30 16:09:08,582 - root - INFO - Inserted Hardware: '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-30 16:09:08,583 - root - INFO - Hardware parsed -- '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-30 16:09:08,587 - root - INFO - Inserted Hardware: '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-30 16:09:08,587 - root - INFO - Hardware parsed -- '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-30 16:09:08,591 - root - INFO - Inserted Hardware: '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-30 16:09:08,591 - root - INFO - Hardware parsed -- '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-30 16:09:08,598 - root - INFO - Inserted Hardware: '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-30 16:09:08,599 - root - INFO - Hardware parsed -- '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-30 16:09:08,608 - root - INFO - Inserted Hardware: '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-30 16:09:08,608 - root - INFO - Hardware parsed -- '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-30 16:09:08,617 - root - INFO - Inserted Hardware: '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-30 16:09:08,617 - root - INFO - Hardware parsed -- '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-30 16:09:08,624 - root - INFO - Inserted Hardware: '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-30 16:09:08,624 - root - INFO - Hardware parsed -- '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-30 16:09:08,628 - root - INFO - Inserted Hardware: '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-30 16:09:08,628 - root - INFO - SUCCESS: COMMAND: aggiestack config --hardware 'Hardware object'
+2018-11-30 16:19:59,304 - root - INFO - Flavor parsed -- '['small', '1', '1', '1\n']'
+2018-11-30 16:19:59,318 - root - INFO - Inserted Flavor: '['small', '1', '1', '1\n']'
+2018-11-30 16:19:59,318 - root - INFO - Flavor parsed -- '['medium', '8', '2', '4\n']'
+2018-11-30 16:19:59,320 - root - INFO - Inserted Flavor: '['medium', '8', '2', '4\n']'
+2018-11-30 16:19:59,320 - root - INFO - Flavor parsed -- '['large', '16', '2', '4\n']'
+2018-11-30 16:19:59,322 - root - INFO - Inserted Flavor: '['large', '16', '2', '4\n']'
+2018-11-30 16:19:59,322 - root - INFO - Flavor parsed -- '['xlarge', '32', '4', '8\n']'
+2018-11-30 16:19:59,325 - root - INFO - Inserted Flavor: '['xlarge', '32', '4', '8\n']'
+2018-11-30 16:19:59,325 - root - INFO - Flavor parsed -- '['jumbo', '1200', '24', '1005']'
+2018-11-30 16:19:59,328 - root - INFO - Inserted Flavor: '['jumbo', '1200', '24', '1005']'
+2018-11-30 16:19:59,328 - root - INFO - SUCCESS: COMMAND: aggiestack config --flavors 'C:\Users\Purnima\git\678-18-c\P1\test-files\flavor-config.txt'
+2018-11-30 16:20:05,033 - root - INFO - Racks parsed -- '['r1', '40960\n']'
+2018-11-30 16:20:05,047 - root - INFO - Updated Rack: '['r1', '40960\n']'
+2018-11-30 16:20:05,047 - root - INFO - Racks parsed -- '['r2', '40960\n']'
+2018-11-30 16:20:05,048 - root - INFO - Updated Rack: '['r2', '40960\n']'
+2018-11-30 16:20:05,049 - root - INFO - Hardware parsed -- '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-30 16:20:05,056 - root - INFO - Inserted Hardware: '['m1', 'r1', '128.0.0.1', '16', '8', '4\n']'
+2018-11-30 16:20:05,056 - root - INFO - Hardware parsed -- '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-30 16:20:05,065 - root - INFO - Inserted Hardware: '['m2', 'r1', '128.0.0.2', '16', '32', '4\n']'
+2018-11-30 16:20:05,065 - root - INFO - Hardware parsed -- '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-30 16:20:05,074 - root - INFO - Inserted Hardware: '['m3', 'r1', '128.0.0.3', '16', '16', '4\n']'
+2018-11-30 16:20:05,074 - root - INFO - Hardware parsed -- '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-30 16:20:05,082 - root - INFO - Inserted Hardware: '['m4', 'r2', '128.0.0.4', '16', '8', '4\n']'
+2018-11-30 16:20:05,082 - root - INFO - Hardware parsed -- '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-30 16:20:05,087 - root - INFO - Inserted Hardware: '['k1', 'r2', '128.1.1.0', '32', '32', '8\n']'
+2018-11-30 16:20:05,087 - root - INFO - Hardware parsed -- '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-30 16:20:05,091 - root - INFO - Inserted Hardware: '['k2', 'r2', '128.1.0.2', '32', '32', '8\n']'
+2018-11-30 16:20:05,091 - root - INFO - Hardware parsed -- '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-30 16:20:05,095 - root - INFO - Inserted Hardware: '['k3', 'r2', '128.1.3.0', '32', '32', '8\n']'
+2018-11-30 16:20:05,095 - root - INFO - Hardware parsed -- '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-30 16:20:05,099 - root - INFO - Inserted Hardware: '['calvin', 'r1', '128.129.4.4', '8', '16', '1\n']'
+2018-11-30 16:20:05,099 - root - INFO - Hardware parsed -- '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-30 16:20:05,103 - root - INFO - Inserted Hardware: '['hobbes', 'r1', '1.1.1.1', '16', '64', '16\n']'
+2018-11-30 16:20:05,103 - root - INFO - Hardware parsed -- '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-30 16:20:05,107 - root - INFO - Inserted Hardware: '['dora', 'r1', '1.1.1.2', '64', '256', '16\n']'
+2018-11-30 16:20:05,107 - root - INFO - SUCCESS: COMMAND: aggiestack config --hardware 'Hardware object'
+2018-11-30 16:35:50,897 - root - INFO - Enter the ADMIN!
+2018-11-30 16:37:58,174 - root - INFO - Enter the ADMIN!
+2018-11-30 16:51:41,926 - root - INFO - Enter the ADMIN!
+2018-11-30 16:51:56,131 - root - INFO - Enter the ADMIN!
+2018-12-01 18:21:41,357 - root - INFO - Enter the ADMIN!
+2018-12-01 18:24:04,485 - root - INFO - Enter the ADMIN!
+2018-12-01 18:24:19,708 - root - INFO - Enter the ADMIN!
+2018-12-01 18:25:16,458 - root - INFO - Enter the ADMIN!
+2018-12-01 18:27:04,009 - root - INFO - Enter the ADMIN!
+2018-12-01 18:28:50,865 - root - INFO - Enter the ADMIN!
+2018-12-01 18:29:10,717 - root - INFO - Enter the ADMIN!
+2018-12-01 18:33:28,513 - root - INFO - Enter the ADMIN!
+2018-12-01 18:34:22,786 - root - INFO - Enter the ADMIN!
+2018-12-01 18:34:26,607 - root - INFO - Enter the ADMIN!
+2018-12-01 18:36:10,423 - root - INFO - Enter the ADMIN!
+2018-12-01 18:36:56,770 - root - INFO - Enter the ADMIN!
+2018-12-01 18:37:01,564 - root - INFO - Enter the ADMIN!
+2018-12-01 18:55:23,033 - root - INFO - COMMAND: aggiestack show hardware - SUCCESS - printed configuration on console
+2018-12-01 18:55:23,037 - root - INFO - COMMAND: aggiestack show hardware - SUCCESS - printed configuration on console
+2018-12-01 18:55:23,040 - root - INFO - COMMAND: aggiestack show hardware - SUCCESS - printed configuration on console
+2018-12-01 18:55:23,043 - root - INFO - COMMAND: aggiestack show hardware - SUCCESS - printed configuration on console
+2018-12-01 18:55:23,045 - root - INFO - COMMAND: aggiestack show hardware - SUCCESS - printed configuration on console
+2018-12-01 18:55:23,049 - root - INFO - COMMAND: aggiestack show hardware - SUCCESS - printed configuration on console
+2018-12-01 18:55:23,051 - root - INFO - COMMAND: aggiestack show hardware - SUCCESS - printed configuration on console
+2018-12-01 18:55:23,054 - root - INFO - COMMAND: aggiestack show hardware - SUCCESS - printed configuration on console
+2018-12-01 18:55:23,059 - root - INFO - COMMAND: aggiestack show hardware - SUCCESS - printed configuration on console
+2018-12-01 18:55:23,063 - root - INFO - COMMAND: aggiestack show hardware - SUCCESS - printed configuration on console
+2018-12-01 18:55:23,077 - root - INFO - COMMAND: aggiestack show images - SUCCESS - printed configuration on console
+2018-12-01 18:55:23,087 - root - INFO - COMMAND: aggiestack show images - SUCCESS - printed configuration on console
+2018-12-01 18:58:29,941 - root - INFO - COMMAND: aggiestack show hardware - SUCCESS - printed configuration on console
+2018-12-01 18:58:29,947 - root - INFO - COMMAND: aggiestack show images - SUCCESS - printed configuration on console
+2018-12-01 18:58:29,952 - root - INFO - COMMAND: aggiestack show images - SUCCESS - printed configuration on console
+2018-12-01 19:08:51,597 - root - INFO - COMMAND: aggiestack show hardware - SUCCESS - printed configuration on console
+2018-12-01 19:08:56,913 - root - INFO - Enter the ADMIN!
+2018-12-01 19:08:56,938 - root - INFO - COMMAND: aggiestack admin show hardware - SUCCESS - printed configuration on console
+2018-12-01 19:09:07,650 - root - INFO - Enter the ADMIN!
+2018-12-01 19:09:07,664 - root - INFO - COMMAND: aggiestack show images - SUCCESS - printed configuration on console
+2018-12-01 19:09:14,154 - root - INFO - Enter the ADMIN!
+2018-12-01 19:09:14,159 - root - INFO - COMMAND: aggiestack show flavors - SUCCESS - printed configuration on console
+2018-12-01 19:09:20,210 - root - INFO - Enter the ADMIN!
+2018-12-01 19:09:20,216 - root - INFO - COMMAND: aggiestack admin show instances - SUCCESS - printed configuration on console
+2018-12-01 19:09:32,824 - root - INFO - COMMAND: aggiestack show instances - INVALID COMMAND - add admin
+2018-12-03 17:38:54,781 - root - INFO - COMMAND: aggiestack show images - SUCCESS - printed configuration on console
+2018-12-03 18:09:23,688 - root - INFO - COMMAND: aggiestack show images - SUCCESS - printed configuration on console
+2018-12-03 18:10:01,629 - root - INFO - COMMAND: aggiestack show images - SUCCESS - printed configuration on console
+2018-12-03 18:10:11,743 - root - INFO - COMMAND: aggiestack show images - SUCCESS - printed configuration on console
+2018-12-03 18:10:26,916 - root - INFO - COMMAND: aggiestack show images - SUCCESS - printed configuration on console
+2018-12-03 18:12:41,617 - root - INFO - Got request to create a server with configuration:
+2018-12-03 18:12:41,617 - root - INFO - Instance name: inlarge1
+2018-12-03 18:12:41,618 - root - INFO - Flavor name:   large
+2018-12-03 18:12:41,618 - root - INFO - Image name:    linux-ubuntu
+2018-12-03 18:12:41,663 - root - INFO - instance inlarge1 created
+2018-12-03 18:12:41,672 - root - INFO - Added to server m3 (on rack r1) current memmory 16 availble memory 0)
+2018-12-03 18:12:41,673 - root - INFO - SUCCESS: COMMAND: aggiestack server create --image linux-ubuntu --flavor large inlarge1
+2018-12-03 18:13:17,079 - root - INFO - Got request to create a server with configuration:
+2018-12-03 18:13:17,079 - root - INFO - Instance name: inlarge2
+2018-12-03 18:13:17,079 - root - INFO - Flavor name:   large
+2018-12-03 18:13:17,079 - root - INFO - Image name:    linux-sles
+2018-12-03 18:13:17,102 - root - INFO - instance inlarge2 created
+2018-12-03 18:13:17,104 - root - INFO - Added to server m4 (on rack r2) current memmory 16 availble memory 0)
+2018-12-03 18:13:17,104 - root - INFO - SUCCESS: COMMAND: aggiestack server create --image linux-sles --flavor large inlarge2
+2018-12-03 18:13:27,290 - root - INFO - Got request to create a server with configuration:
+2018-12-03 18:13:27,290 - root - INFO - Instance name: inlarge3
+2018-12-03 18:13:27,290 - root - INFO - Flavor name:   large
+2018-12-03 18:13:27,290 - root - INFO - Image name:    linux-sles
+2018-12-03 18:13:27,302 - root - INFO - instance inlarge3 created
+2018-12-03 18:13:27,304 - root - INFO - Added to server k1 (on rack r2) current memmory 32 availble memory 16)
+2018-12-03 18:13:27,304 - root - INFO - SUCCESS: COMMAND: aggiestack server create --image linux-sles --flavor large inlarge3
+2018-12-03 18:13:32,872 - root - INFO - Got request to create a server with configuration:
+2018-12-03 18:13:32,872 - root - INFO - Instance name: inlarge4
+2018-12-03 18:13:32,872 - root - INFO - Flavor name:   large
+2018-12-03 18:13:32,872 - root - INFO - Image name:    linux-sles
+2018-12-03 18:13:32,893 - root - INFO - instance inlarge4 created
+2018-12-03 18:13:32,895 - root - INFO - Added to server k1 (on rack r2) current memmory 32 availble memory 0)
+2018-12-03 18:13:32,895 - root - INFO - SUCCESS: COMMAND: aggiestack server create --image linux-sles --flavor large inlarge4
+2018-12-03 18:13:38,107 - root - INFO - Got request to create a server with configuration:
+2018-12-03 18:13:38,108 - root - INFO - Instance name: inlarge5
+2018-12-03 18:13:38,108 - root - INFO - Flavor name:   large
+2018-12-03 18:13:38,108 - root - INFO - Image name:    linux-sles
+2018-12-03 18:13:38,128 - root - INFO - instance inlarge5 created
+2018-12-03 18:13:38,131 - root - INFO - Added to server k2 (on rack r2) current memmory 32 availble memory 16)
+2018-12-03 18:13:38,131 - root - INFO - SUCCESS: COMMAND: aggiestack server create --image linux-sles --flavor large inlarge5
+2018-12-03 18:13:45,146 - root - INFO - Got request to create a server with configuration:
+2018-12-03 18:13:45,146 - root - INFO - Instance name: inlarge6
+2018-12-03 18:13:45,146 - root - INFO - Flavor name:   large
+2018-12-03 18:13:45,146 - root - INFO - Image name:    linux-sles
+2018-12-03 18:13:45,167 - root - INFO - instance inlarge6 created
+2018-12-03 18:13:45,169 - root - INFO - Added to server k2 (on rack r2) current memmory 32 availble memory 0)
+2018-12-03 18:13:45,169 - root - INFO - SUCCESS: COMMAND: aggiestack server create --image linux-sles --flavor large inlarge6
+2018-12-03 18:13:49,344 - root - INFO - Got request to create a server with configuration:
+2018-12-03 18:13:49,344 - root - INFO - Instance name: inlarge7
+2018-12-03 18:13:49,344 - root - INFO - Flavor name:   large
+2018-12-03 18:13:49,344 - root - INFO - Image name:    linux-sles
+2018-12-03 18:13:49,358 - root - ERROR - Couldn't find server to host instance i with image linux-sles and flavor large
+2018-12-03 18:16:12,809 - root - INFO - COMMAND: aggiestack show images - SUCCESS - printed configuration on console
+2018-12-03 18:23:05,451 - root - INFO - Got request to create a server with configuration:
+2018-12-03 18:23:05,451 - root - INFO - Instance name: inlarge7
+2018-12-03 18:23:05,451 - root - INFO - Flavor name:   large
+2018-12-03 18:23:05,451 - root - INFO - Image name:    linux-sles
+2018-12-03 18:23:05,456 - root - ERROR - Couldn't find server to host instance i with image linux-sles and flavor large
+2018-12-03 18:23:05,457 - root - INFO - FAILED: COMMAND: aggiestack server create --image linux-sles --flavor large inlarge7
+2018-12-03 18:24:54,941 - root - INFO - Got request to create a server with configuration:
+2018-12-03 18:24:54,941 - root - INFO - Instance name: inlarge7
+2018-12-03 18:24:54,941 - root - INFO - Flavor name:   large
+2018-12-03 18:24:54,941 - root - INFO - Image name:    linux-sles
+2018-12-03 18:24:54,956 - root - ERROR - Couldn't find server to host instance inlarge7 with image linux-sles and flavor large
+2018-12-03 18:24:54,957 - root - INFO - FAILED: COMMAND: aggiestack server create --image linux-sles --flavor large inlarge7
+2018-12-03 18:25:12,193 - root - INFO - Got request to create a server with configuration:
+2018-12-03 18:25:12,193 - root - INFO - Instance name: inlarge7
+2018-12-03 18:25:12,193 - root - INFO - Flavor name:   medium
+2018-12-03 18:25:12,193 - root - INFO - Image name:    linux-sles
+2018-12-03 18:25:12,204 - root - INFO - instance inlarge7 created
+2018-12-03 18:25:12,206 - root - INFO - Added to server hobbes (on rack r1) current memmory 16 availble memory 0)
+2018-12-03 18:25:12,207 - root - INFO - SUCCESS: COMMAND: aggiestack server create --image linux-sles --flavor medium inlarge7
+2018-12-03 18:25:24,504 - root - INFO - COMMAND: aggiestack show images - SUCCESS - printed configuration on console
+2018-12-03 18:25:52,178 - root - INFO - Enter the ADMIN!
+2018-12-03 18:25:52,188 - root - INFO - COMMAND: aggiestack show imagechaces - SUCCESS
+2018-12-03 18:25:57,492 - root - INFO - Enter the ADMIN!
+2018-12-03 18:25:57,498 - root - INFO - COMMAND: aggiestack show imagechaces - SUCCESS
+2018-12-03 18:26:14,818 - root - INFO - COMMAND: aggiestack show images - SUCCESS - printed configuration on console
+2018-12-03 18:28:13,835 - root - INFO - COMMAND: aggiestack show images - SUCCESS - printed configuration on console
+2018-12-03 18:28:44,950 - root - INFO - COMMAND: aggiestack show images - SUCCESS - printed configuration on console
+2018-12-03 18:30:31,513 - root - INFO - Got request to create a server with configuration:
+2018-12-03 18:30:31,513 - root - INFO - Instance name: inlarge9
+2018-12-03 18:30:31,513 - root - INFO - Flavor name:   large
+2018-12-03 18:30:31,513 - root - INFO - Image name:    linux-sles
+2018-12-03 18:30:31,528 - root - ERROR - Couldn't find server to host instance inlarge9 with image linux-sles and flavor large
+2018-12-03 18:30:31,529 - root - INFO - FAILED: COMMAND: aggiestack server create --image linux-sles --flavor large inlarge9
+2018-12-03 18:31:39,063 - root - INFO - Got request to create a server with configuration:
+2018-12-03 18:31:39,063 - root - INFO - Instance name: inlarge9
+2018-12-03 18:31:39,063 - root - INFO - Flavor name:   large
+2018-12-03 18:31:39,063 - root - INFO - Image name:    linux-sles
+2018-12-03 18:31:39,068 - root - ERROR - Insufficient storage on servers to host instance inlarge9 with image linux-sles and flavor large
+2018-12-03 18:31:39,069 - root - INFO - FAILED: COMMAND: aggiestack server create --image linux-sles --flavor large inlarge9
+2018-12-03 20:26:45,832 - root - INFO - Enter the ADMIN!
+2018-12-03 20:26:45,840 - root - INFO - COMMAND: aggiestack admin show imagechaces - SUCCESS
+2018-12-03 20:28:06,991 - root - INFO - Enter the ADMIN!
+2018-12-03 20:28:07,008 - root - INFO - COMMAND: aggiestack admin show imagechaces - SUCCESS
+2018-12-03 20:28:50,836 - root - INFO - Enter the ADMIN!
+2018-12-03 20:28:50,853 - root - INFO - COMMAND: aggiestack admin show imagechaces - SUCCESS
+2018-12-03 20:29:22,811 - root - INFO - Enter the ADMIN!
+2018-12-03 20:29:22,828 - root - INFO - COMMAND: aggiestack admin show imagechaces - SUCCESS
+2018-12-03 20:29:36,043 - root - INFO - Enter the ADMIN!
+2018-12-03 20:29:36,048 - root - INFO - COMMAND: aggiestack admin show imagechaces - SUCCESS
